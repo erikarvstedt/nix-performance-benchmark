@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nix_bitcoin": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620251628,
+        "narHash": "sha256-xzEZRP2ERfOBTxZ4+G/Zsb52V4ruAhdxGjbbFql0Ia8=",
+        "owner": "fort-nix",
+        "repo": "nix-bitcoin",
+        "rev": "bdd00bff6cf45dbcb995cf8aa1224da76ba45e21",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fort-nix",
+        "ref": "v0.0.46",
+        "repo": "nix-bitcoin",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1643198819,
+        "narHash": "sha256-HXUjluC7wxWu3/vw+nL3QNHFLNUuZ1sn3QB/UG1mhto=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "aebb99a823daabd2e7f549af41a9a1d10e14710f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "aebb99a823daabd2e7f549af41a9a1d10e14710f",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix_bitcoin": "nix_bitcoin",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
